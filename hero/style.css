@@ -23,7 +23,7 @@ section {
   position: absolute;
   bottom: 0;
   z-index: 5;
-  max-width: 550px;
+  max-width: 850px;
   filter: contrast(90%);
   pointer-events: none;
 }
@@ -49,12 +49,12 @@ section {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font-size: 5rem;
+  font-size: 6rem;
   letter-spacing: 0.3rem;
   z-index: 5;
   color: transparent;
   background-position: 0 0;
-  animation: animated-text 20s linear infinite;
+/*  animation: animated-text 20s linear infinite; */
 }
 
 @keyframes animated-text {
@@ -64,11 +64,14 @@ section {
 }
 
 .one,
-.five {
+.five { /*
   -webkit-text-stroke: 1px rgba(16, 104, 31, 0.8);
   background: url(https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/e9d06cb6-2844-49ed-9bde-23d3364b9fa4);
   background-clip: text;
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; */
+  color:#ffffff;
+  text-tranform:uppercase;
+  letter-spacing:-1px;
 }
 
 .two,
