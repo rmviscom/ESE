@@ -115,7 +115,6 @@ section {
   z-index: 5;
   color: transparent;
   background-position: 0 0;
-/*  animation: animated-text 20s linear infinite; */
 }
 
 @keyframes animated-text {
@@ -125,11 +124,7 @@ section {
 }
 
 .one,
-.five { /*
-  -webkit-text-stroke: 1px rgba(16, 104, 31, 0.8);
-  background: url(https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/e9d06cb6-2844-49ed-9bde-23d3364b9fa4);
-  background-clip: text;
-  -webkit-background-clip: text; */
+.five {
   color:#ffffff;
   text-tranform:uppercase;
   letter-spacing:-1px;
