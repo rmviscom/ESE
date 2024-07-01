@@ -116,6 +116,12 @@ section {
   color: transparent;
   background-position: 0 0;
 }
+.impact {
+  font-size:9rem;
+  color:transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+  
 
 @keyframes animated-text {
   100% {
