@@ -1,8 +1,8 @@
 var swiper = new Swiper(".swiper", {
   grabCursor: true,
-  speed: 500,
+  speed: 1500,
   effect: "slide",
-  loop: false,
+  loop: true,
   mousewheel: {
   //  invert: false,
   //  sensitivity: 1,
@@ -11,7 +11,7 @@ var swiper = new Swiper(".swiper", {
     releaseOnEdges: true,
   },
   autoplay: {
-        delay: 2500,
+        delay: 5000,
         disableOnInteraction: false,
         },
 });
