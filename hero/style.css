@@ -116,6 +116,8 @@ section {
   z-index: 5;
   color: transparent;
   background-position: 0 0;
+  font-weight:500;
+
 }
 .impact {
   font-size:18rem;
@@ -123,9 +125,8 @@ section {
   /* -webkit-text-stroke: 1px #fff; */
   display:block;
   position: absolute;
-  top: 25%;
+  top: 40%;
   left: 50%;
-  font-weight:500;
 }
   
 
