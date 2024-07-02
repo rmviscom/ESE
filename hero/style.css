@@ -110,12 +110,13 @@ section {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font-size: 4rem;
-  letter-spacing: 0.3rem;
+  font-size: 3rem;
+  letter-spacing: 1rem;
   text-transform:uppercase;
   z-index: 5;
   color: transparent;
   background-position: 0 0;
+  font-weight:500;
 }
 .impact {
   font-size:18rem;
