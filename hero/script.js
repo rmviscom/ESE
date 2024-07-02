@@ -4,8 +4,11 @@ var swiper = new Swiper(".swiper", {
   effect: "slide",
   loop: false,
   mousewheel: {
-    invert: false,
+  //  invert: false,
+  //  sensitivity: 1,
+    forceToAxis: true,
     sensitivity: 1,
+    releaseOnEdges: true,
   },
 });
 
