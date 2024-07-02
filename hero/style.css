@@ -120,7 +120,7 @@ section {
 
 }
 .impact {
-  font-size:80%vw;
+  font-size:80vw;
   color:rgba(255, 255, 255, 0.5);
   /* -webkit-text-stroke: 1px #fff; */
   display:block;
