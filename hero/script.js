@@ -10,6 +10,10 @@ var swiper = new Swiper(".swiper", {
     sensitivity: 1,
     releaseOnEdges: true,
   },
+  autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+        },
 });
 
 swiper.enable();
