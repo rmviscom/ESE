@@ -138,7 +138,8 @@ section {
 .one,
 .five {
   color:#ffffff;
-  letter-spacing:-1px;
+  letter-spacing:1px;
+  font-size:2rem;
 }
 
 .two,
