@@ -123,7 +123,9 @@ section {
   color:rgba(255, 255, 255, 0.5);
   /* -webkit-text-stroke: 1px #fff; */
   display:block;
-  margin-top:1em;
+  position: absolute;
+  top: 25%;
+  left: 50%;
 }
   
 
