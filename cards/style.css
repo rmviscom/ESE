@@ -29,7 +29,7 @@ body{
 
 .hero-section{
   align-items: flex-start;
-  background-image: linear-gradient(15deg, #0f4667 0%, #2a6973 150%);
+ /* background-image: linear-gradient(15deg, #0f4667 0%, #2a6973 150%); */
   display: flex;
   min-height: 100%;
   justify-content: center;
@@ -91,7 +91,7 @@ body{
 }
 
 .card-grid:hover > .card:not(:hover) .card__background{
-  filter: brightness(0.9) saturate(0) contrast(1.2) blur(20px);
+  filter: brightness(1.5) saturate(0) contrast(1.2) blur(20px);
 }
 
 .card__content{
