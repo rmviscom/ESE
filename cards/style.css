@@ -117,6 +117,7 @@ body{
   text-shadow: 2px 2px 20px rgba(0,0,0,0.9);
   line-height: auto;
   word-spacing: 100vw;
+  font-weight:bold;
 }
 .esecard:hover > .esecard__heading{
     transform: scale(1.05) translateZ(0);
