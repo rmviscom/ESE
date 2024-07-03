@@ -88,7 +88,7 @@ body{
 
 .card:hover .card__background{
   transform: scale(1.05) translateZ(0);
-  filter: brightness(0.9) saturate(1) contrast(1.5);
+  filter: brightness(0.8) saturate(1) contrast(1.2);
 }
 
 .card-grid:hover > .card:not(:hover) .card__background{
@@ -120,3 +120,9 @@ body{
 .card:hover > .card__heading{
     transform: scale(1.05) translateZ(0);
 }
+.more{
+  margin-top:3rem;
+  font-size:1.2rem;
+  color:#ffffff;
+}
+  
