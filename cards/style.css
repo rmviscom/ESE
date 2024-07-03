@@ -88,7 +88,7 @@ body{
 
 .card:hover .card__background{
   transform: scale(1.05) translateZ(0);
-  filter: brightness(0.8) saturate(1) contrast(0.8) blur(20px);
+  filter: brightness(0.8) saturate(1) contrast(0.8);
 
 }
 
