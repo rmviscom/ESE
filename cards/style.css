@@ -89,7 +89,6 @@ body{
 .card:hover .card__background{
   transform: scale(1.05) translateZ(0);
   filter: brightness(0.8) saturate(1) contrast(0.8);
-
 }
 
 .card-grid:hover > .card:not(:hover) .card__background{
@@ -116,4 +115,7 @@ body{
   text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
   line-height: auto;
   word-spacing: 100vw;
+}
+.card-grid:hover > .card__heading{
+    transform: scale(1.05) translateZ(0);
 }
