@@ -120,14 +120,18 @@ body{
 .card:hover > .card__heading{
     transform: scale(1.05) translateZ(0);
 }
+.card:hover > .more{
+  visibiility: visible;
+}
 .more{
   margin-top:3rem;
   font-size:1.2rem;
   color:#ffffff;
+  visibility:hidden;
 } 
 .more img{
   width:15px;
   height:15px;
-  fill:#ffffff !important;
+  filter: brightness(2.0)
 }
   
