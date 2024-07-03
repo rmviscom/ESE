@@ -116,6 +116,6 @@ body{
   line-height: auto;
   word-spacing: 100vw;
 }
-.card-grid:hover > .card__heading{
+.card:hover > .card__heading{
     transform: scale(1.05) translateZ(0);
 }
