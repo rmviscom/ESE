@@ -65,7 +65,7 @@ body{
 .card:before{
   content: '';
   display: block;
-  padding-bottom: 150%;
+  padding-bottom: 100%;
   width: 100%;
 }
 
@@ -74,7 +74,7 @@ body{
   background-position: center;
   border-radius: var(--spacing-l);
   bottom: 0;
-  filter: brightness(0.9) saturate(1.2) contrast(0.85);
+  /* filter: brightness(0.9) saturate(1.2) contrast(0.85); */
   left: 0;
   position: absolute;
   right: 0;
@@ -88,6 +88,8 @@ body{
 
 .card:hover .card__background{
   transform: scale(1.05) translateZ(0);
+  filter: brightness(0.8) saturate(1) contrast(0.8) blur(20px);
+
 }
 
 .card-grid:hover > .card:not(:hover) .card__background{
@@ -103,15 +105,15 @@ body{
 
 .card__category{
   color: var(--text-light);
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-bottom: var(--spacing-s);
   text-transform: uppercase;
 }
 
 .card__heading{
   color: var(--text-lighter);
-  font-size: 1.9rem;
+  font-size: 2.5rem;
   text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
-  line-height: 1.4;
+  line-height: auto;
   word-spacing: 100vw;
 }
