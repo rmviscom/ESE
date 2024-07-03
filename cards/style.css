@@ -94,6 +94,9 @@ body{
 .card-grid:hover > .card:not(:hover) .card__background{
   filter: brightness(1.5) saturate(1) contrast(1.2) blur(20px);
 }
+.card-grid:hover > .card:not(:hover) .card__heading{
+visibility:hidden;
+}
 
 .card__content{
   left: 0;
