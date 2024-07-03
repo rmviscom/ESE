@@ -100,7 +100,7 @@ body{
   left: 0;
   padding: var(--spacing-l);
   position: absolute;
-  top: 0;
+  top: 25%;
 }
 
 .card__category{
@@ -124,10 +124,10 @@ body{
   margin-top:3rem;
   font-size:1.2rem;
   color:#ffffff;
-  display:none;
 } 
 .more img{
   width:15px;
   height:15px;
+  fill:#ffffff !important;
 }
   
