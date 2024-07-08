@@ -7,5 +7,7 @@ li.leaf {
   padding-bottom:12px;
 }
 li.leaf::after {
-   content:url('https://rmviscom.github.io/ESE/images/rightArrowBox.svg');
+  background:url('https://rmviscom.github.io/ESE/images/rightArrowBox.svg');
+  width:18px;
+  height:18px;
 }
