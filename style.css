@@ -6,5 +6,5 @@ li.leaf {
   font-weight:500;
   padding-bottom:12px;
 li.leaf::after {
-   content:url('data:image/svg+xml,<%3Fxml version="1.0" encoding="UTF-8"%3F><svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 10.5"><defs><style> .cls-1 { fill: %23000; stroke-width: 0px; } </style></defs><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M4.5,9.94c0,.31-.25.56-.56.56h-1.69c-1.24,0-2.25-1.01-2.25-2.25V2.25C0,1.01,1.01,0,2.25,0h1.69c.31,0,.56.25.56.56s-.25.56-.56.56h-1.69c-.62,0-1.12.51-1.12,1.12v6c0,.62.51,1.12,1.12,1.12h1.69c.31,0,.56.25.56.56ZM11.85,4.87l-2.98-3.19c-.21-.23-.57-.24-.79-.02-.23.21-.24.57-.02.79l2.08,2.24h-5.84c-.29,0-.54.25-.54.56s.25.56.54.56h5.82l-2.11,2.24c-.21.23-.2.58.02.79.13.1.27.15.39.15.15,0,.3-.06.41-.18l2.98-3.19c.25-.22.25-.55.04-.77Z"/></g></svg>');
+   content:url('http://rmviscom.github.io/images/rightArrowBox.svg');
 }
