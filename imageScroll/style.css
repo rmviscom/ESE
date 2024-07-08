@@ -88,7 +88,7 @@
 #r-box {
   height: 100px;
   width: 200px;
-  left: 20px;
+  left: 0px;
   z-index: -2;
   top: 690px;
   }
