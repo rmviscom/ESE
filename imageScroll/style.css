@@ -94,7 +94,7 @@
 #r-box {
   height: 100px;
   width: 200px;
-  left: 0px;
+  left: -20px;
   z-index: -2;
   top: 690px;
   }
@@ -110,7 +110,7 @@
 #a-box img {
   box-shadow: 3px 6px 5px rgba(0, 0, 0, 0.25);
   filter: blur(1px);
-  opacity:30%;
+  opacity:70%;
   }
 
 #r-box img {
