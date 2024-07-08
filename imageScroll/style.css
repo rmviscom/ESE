@@ -78,7 +78,7 @@
 }
 
 #a-box img {
-  filter: blur(2px);
+  filter: blur(3px);
   opacity:70%;
     border-radius:8px;
 
