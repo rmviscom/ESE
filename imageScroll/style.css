@@ -66,13 +66,14 @@
 #a-box {
   height: 200px;
   width: 300px;
-  z-index: 2;
+  z-index: -1;
   top: 190px;
-  opacity:.8;
+
 }
 
 #a-box img {
   box-shadow: 3px 6px 5px rgba(0, 0, 0, 0.25);
+  opacity:.8;
 
 }
 
