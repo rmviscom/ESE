@@ -4,6 +4,6 @@
 li.leaf {
   list-style-image: url('https://rmviscom.github.io/ESE/images/leaffill.svg');
 li.leaf::marker {
-   font-size: 1.8em;
+   font-size: 2.8em;
    line-height: 0.1;
 }
