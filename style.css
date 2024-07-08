@@ -1,3 +1,6 @@
+
+/*** LEAF ICONS ***/
+
 li.leaf {
   list-style-image: url('https://rmviscom.github.io/ESE/images/leaffill.svg');
 li.leaf::marker {
