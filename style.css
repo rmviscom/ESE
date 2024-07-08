@@ -5,7 +5,7 @@ li.leaf {
   font-size:1em;
   font-weight:500;
 li.leaf::marker {
-   height:20px;
-  width:20px;
+   height:200%;
+  width:200%;
    line-height: 0.1;
 }
