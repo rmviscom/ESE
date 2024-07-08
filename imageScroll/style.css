@@ -56,6 +56,7 @@
   background: #1BE059;
 }
 
+
 #r-box {
   height: 200px;
   width: 300px;
@@ -74,10 +75,39 @@
 
 #a-box img {
   box-shadow: 3px 6px 5px rgba(0, 0, 0, 0.25);
-  filter:brightness(90%) blur(1px);
-
+  filter: blur(1px);
+  opacity:70%;
 }
 
 #r-box img {
 
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+#r-box {
+  height: 100px;
+  width: 200px;
+  left: 20px;
+  z-index: -2;
+  top: 690px;
+  }
+
+#a-box {
+  height: 100px;
+  width: 200px;
+  z-index: -1;
+  top: 390px;
+
+  }
+
+#a-box img {
+  box-shadow: 3px 6px 5px rgba(0, 0, 0, 0.25);
+  filter: blur(1px);
+  opacity:70%;
+  }
+
+#r-box img {
+
+  }
 }
