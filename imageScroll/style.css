@@ -29,8 +29,8 @@
   align-items: center;
   -ms-flex-align: center;
   height: 100vh;
-  position: inherit;
-  top: 25%;
+  position: absolute;
+  top: 95%;
   left: 0px;
 }
 
