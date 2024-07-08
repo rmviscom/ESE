@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Image scroll overlap</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="content">
+ <div  data-scroll-speed = "6" style="position:fixed">
+<h1 style="font-size:2.5em; margin-top:300px; padding-left:25px;">Lorem Ipsum Dolore</h1>
+  <br>
+  <p style="width:25%; padding-left:25px">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+</div>
+  <div class="wrapper">
+    <div class="box" id="a-box" data-scroll-speed="4"><img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/GDM_Megaron_Luxury_Hotel.jpg" style="width:300px; height:200px;">Image 1</div>
+    <div class="box" id="r-box" data-scroll-speed="6" style="z-index:-1;"><img src="https://www.vfmii.com/medlib6/VS_SLH_photo/0/72/629/72629199/72629199.jpg" style="width:300px; height:200px;">Image 2</div>
+    
+  </div>
+</div>
+<!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
