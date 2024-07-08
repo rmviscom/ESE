@@ -30,7 +30,7 @@
   -ms-flex-align: center;
   height: 100vh;
   position: absolute;
-  top: 95%;
+  top: 0px;
   left: 0px;
 }
 
@@ -61,13 +61,14 @@
   width: 300px;
   right: 40px;
   z-index: -2;
+  top: 190px;
 }
 
 #a-box {
   height: 200px;
   width: 300px;
   z-index: -1;
-  top: 190px;
+  top: 390px;
 
 }
 
