@@ -298,7 +298,8 @@ section {
 
 li.leaf {
   list-style-image: url('https://rmviscom.github.io/ESE/images/leaffill.svg');
+  font-size:2em;
 li.leaf::marker {
-   font-size: 200%;
+   font-size: 4em;
    line-height: 0.1;
 }
