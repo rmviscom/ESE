@@ -5,6 +5,7 @@ li.leaf {
   font-size:.9em;
   font-weight:500;
   padding-bottom:12px;
+}
 li.leaf::after {
    content:url('https://rmviscom.github.io/ESE/images/rightArrowBox.svg');
 }
