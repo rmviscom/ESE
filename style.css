@@ -11,4 +11,5 @@ li.leaf::after {
   background:url('https://rmviscom.github.io/ESE/images/rightArrowBox.svg');
   width:18px;
   height:18px;
+  display:block;
 }
