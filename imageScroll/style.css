@@ -96,24 +96,25 @@
   width: 200px;
   left: -20px;
   z-index: -2;
-  top: 690px;
+  top: 790px;
   }
 
 #a-box {
   height: 100px;
   width: 200px;
   z-index: -1;
-  top: 390px;
+  top: 490px;
 
   }
 
 #a-box img {
-  box-shadow: 3px 6px 5px rgba(0, 0, 0, 0.25);
-  filter: blur(1px);
+  filter: blur(3px);
   opacity:70%;
+    border-radius:8px;
   }
 
 #r-box img {
-
+  border-radius:8px;
+  box-shadow: 3px 6px 5px rgba(0, 0, 0, 0.25);
   }
 }
