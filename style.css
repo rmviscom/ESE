@@ -6,7 +6,7 @@ li.leaf {
   font-weight:500;
   padding-bottom:12px;
 }
-li.leaf::after {
+/* li.leaf::after {
   content:" ";
   background:url('https://rmviscom.github.io/ESE/images/rightArrowBox.svg');
   background-repeat:no-repeat;
@@ -15,3 +15,4 @@ li.leaf::after {
   display:inline-block;
   margin-left:8px;
 }
+*/
