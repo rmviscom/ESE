@@ -69,7 +69,7 @@ html,
 body {
   position: relative;
   height: 100%;
-  font-family: 'NB International Pro', sans-serif;
+  font-family: nb_international_pro,sans-serif;
 }
 
 section {
